@@ -1,0 +1,433 @@
+{
+    "data": [
+        {
+            "id": "qwen-max-latest",
+            "name": "Qwen2.5-Max",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwen-max-latest",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "Qwen2.5-Max",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "Qwen2.5-Max is the most powerful language model in the Qwen series. It achieves excellent performance in complex reasoning, instruction following, mathematics, coding, role-playing, creative writing, etc.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "video": true,
+                        "citations": true,
+                        "audio": true
+                    },
+                    "short_description": "The most powerful language model in the Qwen series.",
+                    "max_context_length": 32768,
+                    "max_generation_length": 8192,
+                    "chat_type": [
+                        "t2t",
+                        "t2v",
+                        "t2i",
+                        "search",
+                        "artifacts"
+                    ],
+                    "modality": [
+                        "text"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": true,
+                "updated_at": 1732711466,
+                "created_at": 1732711466
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qwen-plus-latest",
+            "name": "Qwen2.5-Plus",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwen-plus-latest",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "Qwen2.5-Plus",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "Qwen2.5-Plus is the flagship language model of the Qwen series. It is capable of solving complex tasks, such as coding and mathematics, and it can achieve superior performance in language understanding and generation.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "video": true,
+                        "citations": true,
+                        "audio": true
+                    },
+                    "short_description": "Capable of complex tasks",
+                    "max_context_length": 131072,
+                    "max_generation_length": 8192,
+                    "chat_type": [
+                        "t2t",
+                        "t2v",
+                        "t2i",
+                        "search",
+                        "artifacts"
+                    ],
+                    "modality": [
+                        "text"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": true,
+                "updated_at": 1732711450,
+                "created_at": 1732711450
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qwq-32b",
+            "name": "QwQ-32B",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwq-32b",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "QwQ-32B",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "QwQ-32B is the reasoning model based on Qwen2.5-32B. It is capable of long chain-of-thought thinking, and it is especially good at coding, math, and simple logical reasoning.",
+                    "capabilities": {
+                        "vision": false,
+                        "document": true,
+                        "video": false,
+                        "citations": false
+                    },
+                    "short_description": "Capable of thinking and reasoning",
+                    "max_context_length": 131072,
+                    "max_generation_length": 8192,
+                    "is_single_round": 0,
+                    "chat_type": [
+                        "t2t",
+                        "artifacts",
+                        "search"
+                    ],
+                    "modality": [
+                        "text"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": true,
+                "updated_at": 1733146986,
+                "created_at": 1733146986
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qwen-turbo-latest",
+            "name": "Qwen2.5-Turbo",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwen-turbo-latest",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "Qwen2.5-Turbo",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "Qwen2.5-Turbo is a fast and long-context language model of the Qwen series. It is capable of common language tasks, such as summarization, translation, paraphrasing, reading comprehension, etc. Notably, it supports super long context of up to 1 million tokens.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "video": true,
+                        "citations": true,
+                        "audio": true
+                    },
+                    "short_description": "Fast and 1M-token context",
+                    "max_context_length": 1000000,
+                    "max_generation_length": 8192,
+                    "chat_type": [
+                        "t2t",
+                        "t2v",
+                        "t2i",
+                        "search",
+                        "artifacts"
+                    ],
+                    "modality": [
+                        "text"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": true,
+                "updated_at": 1732711466,
+                "created_at": 1732711466
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qwen2.5-omni-7b",
+            "name": "Qwen2.5-Omni-7B",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwen2.5-omni-7b",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "Qwen2.5-Omni-7B",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "Qwen2.5-Omni-7B is the first end-to-end omni-model in the open-source Qwen series. It can understand all modalities such as text, image, audio, and video, and perform real-time text and natural speech generation.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "citations": true,
+                        "video": true,
+                        "audio": true
+                    },
+                    "short_description": "Omni model supporting voice chat and video chat",
+                    "max_context_length": 30720,
+                    "max_generation_length": 2048,
+                    "chat_type": [
+                        "t2t",
+                        "t2v",
+                        "t2i",
+                        "search",
+                        "artifacts"
+                    ],
+                    "modality": [
+                        "text",
+                        "image",
+                        "video",
+                        "audio"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": false,
+                "updated_at": 1732711466,
+                "created_at": 1732711466
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qvq-72b-preview-0310",
+            "name": "QVQ-Max",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qvq-72b-preview-0310",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "QVQ-Max",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "QVQ-Max is our largest visual reasoning model. It is capable of long chain-of-thought thinking in the visual context.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "video": true,
+                        "citations": true
+                    },
+                    "short_description": "Powerful visual reasoning model",
+                    "max_context_length": 131072,
+                    "max_generation_length": 8192,
+                    "is_single_round": 1,
+                    "chat_type": [
+                        "t2t",
+                        "artifacts",
+                        "search"
+                    ],
+                    "modality": [
+                        "text",
+                        "image",
+                        "video"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": false,
+                "updated_at": 1732713060,
+                "created_at": 1732713060
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qwen2.5-vl-32b-instruct",
+            "name": "Qwen2.5-VL-32B-Instruct",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwen2.5-vl-32b-instruct",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "Qwen2.5-VL-32B-Instruct",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "Qwen2.5-VL-32B-Instruct is the second largest vision-language model in the open-source Qwen2.5 series. It can understand images and videos, generate image captions, answer questions, perform text recognition, detect objects, and more.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "video": true,
+                        "citations": true
+                    },
+                    "short_description": "Second-largest vision-language model",
+                    "max_context_length": 131072,
+                    "max_generation_length": 8192,
+                    "chat_type": [
+                        "t2t",
+                        "t2v",
+                        "t2i",
+                        "search",
+                        "artifacts"
+                    ],
+                    "modality": [
+                        "text",
+                        "image",
+                        "video"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": false,
+                "updated_at": 1732711466,
+                "created_at": 1732711466
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qwen2.5-14b-instruct-1m",
+            "name": "Qwen2.5-14B-Instruct-1M",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwen2.5-14b-instruct-1m",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "Qwen2.5-14B-Instruct-1M",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "Qwen2.5-14B-Instruct-1M is an opensource long-context language model of the Qwen series. It is capable of common language tasks, such as summarization, translation, paraphrasing, reading comprehension, etc. Notably, it supports super long context of up to 1 million tokens.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "video": true,
+                        "citations": true
+                    },
+                    "short_description": "Long-context open model",
+                    "max_context_length": 1000000,
+                    "max_generation_length": 8192,
+                    "chat_type": [
+                        "t2t",
+                        "t2v",
+                        "t2i",
+                        "search",
+                        "artifacts"
+                    ],
+                    "modality": [
+                        "text"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": false,
+                "updated_at": 1732711466,
+                "created_at": 1732711466
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qwen2.5-coder-32b-instruct",
+            "name": "Qwen2.5-Coder-32B-Instruct",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwen2.5-coder-32b-instruct",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "Qwen2.5-Coder-32B-Instruct",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "Qwen2.5-Coder-32B-Instruct is our opensourced flagship coder model. It demonstrates top-tier performance in coding.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "video": true,
+                        "citations": true
+                    },
+                    "short_description": "Strong at coding tasks",
+                    "max_context_length": 131072,
+                    "max_generation_length": 8192,
+                    "chat_type": [
+                        "t2t",
+                        "t2v",
+                        "t2i",
+                        "search",
+                        "artifacts"
+                    ],
+                    "modality": [
+                        "text"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": false,
+                "updated_at": 1732779224,
+                "created_at": 1732779224
+            },
+            "preset": true,
+            "action_ids": []
+        },
+        {
+            "id": "qwen2.5-72b-instruct",
+            "name": "Qwen2.5-72B-Instruct",
+            "object": "model",
+            "owned_by": "openai",
+            "info": {
+                "id": "qwen2.5-72b-instruct",
+                "user_id": "4a8cd1c0-a7f6-4cfa-b5dd-d6bdab408271",
+                "base_model_id": null,
+                "name": "Qwen2.5-72B-Instruct",
+                "meta": {
+                    "profile_image_url": "/static/favicon.png",
+                    "description": "Qwen2.5-72B-Instruct is the largest language model the opensourced Qwen2.5 series. It achieves top-tier performance across downstream tasks, including language understanding, coding, math, multilingual tasks, etc.",
+                    "capabilities": {
+                        "vision": true,
+                        "document": true,
+                        "video": true,
+                        "citations": true
+                    },
+                    "short_description": "Smart large language model",
+                    "max_context_length": 131072,
+                    "max_generation_length": 8192,
+                    "chat_type": [
+                        "t2t",
+                        "t2v",
+                        "t2i",
+                        "search",
+                        "artifacts"
+                    ],
+                    "modality": [
+                        "text"
+                    ]
+                },
+                "access_control": null,
+                "is_active": true,
+                "is_visitor_active": false,
+                "updated_at": 1732713068,
+                "created_at": 1732713068
+            },
+            "preset": true,
+            "action_ids": []
+        }
+    ]
+}
